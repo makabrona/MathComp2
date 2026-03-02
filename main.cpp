@@ -18,9 +18,7 @@ int main()
     // SECOND MATRIX
 
     Matrix matB(3, 3);
-
     std::cout << "Insert the values of the Matrix B" << std::endl;
-
     matB.read();
     matB.print();
     
@@ -89,55 +87,6 @@ int main()
 
     resultB.print();
 
-
-
-
-    /*
-    
-    MULTIPLY
-
-    std::cout << "If we multiply the first matrix with the second, we get:" << std::endl;
-
-    Matrix multipliedMat = mat1.multiply(mat2);
-
-    multipliedMat.print();
-
-    */
-
-    /*
-    TRANSPOSE    
-
-    std::cout << "La matriz transpuesta es:" << std::endl;
-
-    Matrix transposed = mat1.transpose();
-
-    transposed.print();
-
-    */
-
-    /*
-    DETERMINANT
-
-    double determinant = mat1.determinant();
-    std::cout << "Determinant: " << determinant << std::endl;
-
-    */
-
-    /*
-    INVERSE
-    
-    Matrix inverse = mat1.inverse();
-    inverse.print();
-    */
-
-    
-    //Vector3D vector(1, 2, 3);
-
-    //// multiply
-
-    //Vector3D result = mat1.multiply(vector);
-
-    //result.print();
     
     return 0;
 }

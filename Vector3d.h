@@ -8,12 +8,8 @@ public:
     double y;
     double z;
 
-    Vector3D(); // constructor
+    Vector3D();
     Vector3D(double x, double y, double z); // sized constructor
 
     void print();
-
-    double Magnitude();
-
-
 };

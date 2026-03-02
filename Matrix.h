@@ -5,7 +5,7 @@
 class Matrix
 {
 public:
-    Matrix(); // default constructor (matriz maxima 10x10)
+    Matrix(); // default constructor
     Matrix(int _m, int _n); // sized constructor
     void read();
     void print();
@@ -22,3 +22,4 @@ public:
     int m; // actual number of rows
     int n; // actual number of columns
 };
+
